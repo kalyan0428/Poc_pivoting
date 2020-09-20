@@ -1,0 +1,113 @@
+cd C:\Users\venkats_mandadapu\v2\api
+set PATH=C:\Users\venkats_mandadapu\anaconda3;C:\Users\venkats_mandadapu\anaconda3\Scripts;C:\Users\venkats_mandadapu\anaconda3\Library\bin;
+http://127.0.0.1:5000/file_source?pivot_ind=yes
+ $$$$$$$$$$$$$$$$$$$$$ New test cases
+ Test1:
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"filter":{"Sales Channel":[]}
+}
+
+Test2:
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"filter":{"Sales Channel":["Online"]}
+}
+
+Test3:
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"columns":["Item Type"]
+}
+
+Test4:
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"filter":{"Item Type":["Cereal"]},
+"columns":["Item Type"]
+}
+
+Test5:
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"rows":["Region"],
+}
+
+Test6:
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+ "values":["Units Sold"]
+}
+
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+ "rows":["Region"],
+ "values":["Units Sold"]
+}
+
+Test7:
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"filter":{"Sales Channel":[]},
+"columns":["Item Type"],
+ "rows":["Region"],
+ "values":["Units Sold"]
+}
+
+Test8:
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"columns":["Item Type"],
+ "rows":["Region"]
+}
+ 
+Test9:
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+ "rows":["Region"],
+ "values":["Units Sold"]
+}
+ 
+ $$$$$$$$$$$$$$$$$$$$$$$
+ 
+ Test Cases 0: working
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"filter":{"Sales Channel":[]},
+"columns":["Item Type"],
+ "rows":["Region"],
+ "values":["Units Sold"]
+}
+
+Test Cases 1: working
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"filter":{"Sales Channel":[ "Online"],"Item Type":["Fruits"],"sal":[10,20,30]},
+"columns":["Item Type"],
+ "rows":["Region"],
+ "values":["Units Sold"]
+}
+
+
+Test Case 2: Working
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"columns":["Item Type"],
+ "rows":["Region"],
+ "values":["Units Sold"]
+}
+
+Test Case 3: Working
+{"file_name":"C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv",
+"columns":["Item Type"],
+ "rows":["Region"],
+}
+
+Test Case 4: Working
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+"columns":["Item Type"]
+}
+
+
+Test Case 5: Working
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+ "rows":["Region"]
+}
+
+Test Case 6: Working
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+ "values":["Units Sold"]
+}
+
+Test Case 7: Working
+{"file_name":"C:\\Users\\venkats_mandadapu\\Downloads\\1500000_Sales_Records.csv",
+ "rows":["Region"],
+ "values":["Units Sold"]
+}

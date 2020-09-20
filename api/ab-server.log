@@ -1,0 +1,1262 @@
+2020-09-10 15:00:42,646 - app - INFO -AB-server api started Successfully
+2020-09-10 15:00:42,649 - app - INFO -5000
+2020-09-10 15:00:42,650 - app - INFO -runing ...
+2020-09-10 15:00:44,622 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:02:16,086 - app - INFO -api Request Initiated
+2020-09-10 15:02:16,091 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:02:16,094 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 51, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 56, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 65, in read_pickle
+    return try_read(path)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 61, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 51, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 56, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 49, in file_process
+    DF=pd.read_pickle(f"{pkl_file}.pkl")
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 68, in read_pickle
+    return try_read(path, encoding='latin1')
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 61, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+2020-09-10 15:02:16,184 - app - INFO -__
+2020-09-10 15:02:16,194 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:02:16] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:05:37,021 - app - INFO -AB-server api started Successfully
+2020-09-10 15:05:37,038 - app - INFO -5000
+2020-09-10 15:05:37,039 - app - INFO -runing ...
+2020-09-10 15:05:38,364 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:05:45,780 - app - INFO -api Request Initiated
+2020-09-10 15:05:45,782 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:05:45,788 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 51, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 56, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 65, in read_pickle
+    return try_read(path)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 61, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 51, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 56, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 50, in file_process
+    DF=pd.read_pickle(f"{pkl_file}.pkl")
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 68, in read_pickle
+    return try_read(path, encoding='latin1')
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 61, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+2020-09-10 15:05:45,801 - app - INFO -__
+2020-09-10 15:05:45,803 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:05:45] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:27:43,742 - app - INFO -AB-server api started Successfully
+2020-09-10 15:27:43,746 - app - INFO -5000
+2020-09-10 15:27:43,746 - app - INFO -runing ...
+2020-09-10 15:27:44,502 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:27:52,756 - app - INFO -api Request Initiated
+2020-09-10 15:27:52,758 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:27:52,763 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 51, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 56, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 65, in read_pickle
+    return try_read(path)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 61, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 51, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 56, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 50, in file_process
+    DF=pd.read_pickle(f"{pkl_file}.pkl")
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 68, in read_pickle
+    return try_read(path, encoding='latin1')
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\io\pickle.py", line 61, in try_read
+    with open(path, 'rb') as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'emp_data.pkl'
+2020-09-10 15:27:52,777 - app - INFO -__
+2020-09-10 15:27:52,780 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:27:52] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:29:04,992 - app - INFO -api Request Initiated
+2020-09-10 15:29:04,995 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:29:05,692 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 79, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 15:29:05,961 - app - INFO -__
+2020-09-10 15:29:05,963 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:29:05] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 15:31:08,417 - app - INFO -AB-server api started Successfully
+2020-09-10 15:31:08,422 - app - INFO -5000
+2020-09-10 15:31:08,422 - app - INFO -runing ...
+2020-09-10 15:31:09,336 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:31:17,949 - app - INFO -api Request Initiated
+2020-09-10 15:31:17,951 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:31:18,193 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 79, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 15:31:18,202 - app - INFO -__
+2020-09-10 15:31:18,205 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:31:18] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 15:33:14,762 - app - INFO -AB-server api started Successfully
+2020-09-10 15:33:14,766 - app - INFO -5000
+2020-09-10 15:33:14,767 - app - INFO -runing ...
+2020-09-10 15:33:15,462 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:33:25,398 - app - INFO -api Request Initiated
+2020-09-10 15:33:25,407 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:33:25,697 - app - INFO -__
+2020-09-10 15:33:26,260 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:33:26] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:35:05,037 - app - INFO -AB-server api started Successfully
+2020-09-10 15:35:05,044 - app - INFO -5000
+2020-09-10 15:35:05,045 - app - INFO -runing ...
+2020-09-10 15:35:05,850 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:35:14,191 - app - INFO -api Request Initiated
+2020-09-10 15:35:14,193 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:35:14,347 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 80, in file_process
+    result_dict["data"]=json.dumps(pivot_result.to_dict())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\abhi\Anaconda3\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\abhi\Anaconda3\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+2020-09-10 15:35:14,376 - app - INFO -__
+2020-09-10 15:35:14,378 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:35:14] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:36:25,979 - app - INFO -AB-server api started Successfully
+2020-09-10 15:36:25,982 - app - INFO -5000
+2020-09-10 15:36:25,983 - app - INFO -runing ...
+2020-09-10 15:36:26,661 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:36:32,809 - app - INFO -api Request Initiated
+2020-09-10 15:36:32,810 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:36:32,942 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 80, in file_process
+    result_dict["data"]=json.loads(json.dumps(pivot_result.to_dict()))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\abhi\Anaconda3\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\abhi\Anaconda3\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+2020-09-10 15:36:32,964 - app - INFO -__
+2020-09-10 15:36:32,973 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:36:32] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:38:27,218 - app - INFO -AB-server api started Successfully
+2020-09-10 15:38:27,221 - app - INFO -5000
+2020-09-10 15:38:27,222 - app - INFO -runing ...
+2020-09-10 15:38:27,877 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:38:35,563 - app - INFO -api Request Initiated
+2020-09-10 15:38:35,565 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:38:35,684 - app - INFO -__
+2020-09-10 15:38:35,708 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:38:35] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:40:10,547 - app - INFO -AB-server api started Successfully
+2020-09-10 15:40:10,551 - app - INFO -5000
+2020-09-10 15:40:10,551 - app - INFO -runing ...
+2020-09-10 15:40:11,158 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:40:20,627 - app - INFO -api Request Initiated
+2020-09-10 15:40:20,629 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:40:20,794 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 78, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 15:40:20,821 - app - INFO -__
+2020-09-10 15:40:20,825 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:40:20] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 15:41:37,933 - app - INFO -AB-server api started Successfully
+2020-09-10 15:41:37,937 - app - INFO -5000
+2020-09-10 15:41:37,938 - app - INFO -runing ...
+2020-09-10 15:41:38,708 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:41:45,582 - app - INFO -api Request Initiated
+2020-09-10 15:41:45,584 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:41:45,685 - app - INFO -__
+2020-09-10 15:41:45,711 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:41:45] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:47:27,032 - app - INFO -AB-server api started Successfully
+2020-09-10 15:47:27,038 - app - INFO -5000
+2020-09-10 15:47:27,039 - app - INFO -runing ...
+2020-09-10 15:47:28,036 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:47:39,240 - app - INFO -api Request Initiated
+2020-09-10 15:47:39,242 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:47:39,450 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 78, in file_process
+    result_dict["data"]=json.loads(df.to_json())
+NameError: name 'df' is not defined
+2020-09-10 15:47:39,454 - app - INFO -__
+2020-09-10 15:47:39,510 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:47:39] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:48:18,450 - app - INFO -AB-server api started Successfully
+2020-09-10 15:48:18,459 - app - INFO -5000
+2020-09-10 15:48:18,460 - app - INFO -runing ...
+2020-09-10 15:48:19,725 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:48:27,489 - app - INFO -api Request Initiated
+2020-09-10 15:48:27,491 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:48:27,613 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 78, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 15:48:27,622 - app - INFO -__
+2020-09-10 15:48:27,625 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:48:27] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 15:52:11,593 - app - INFO -AB-server api started Successfully
+2020-09-10 15:52:11,598 - app - INFO -5000
+2020-09-10 15:52:11,598 - app - INFO -runing ...
+2020-09-10 15:52:12,484 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:52:18,935 - app - INFO -api Request Initiated
+2020-09-10 15:52:18,937 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:52:19,058 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 80, in file_process
+    print(json.loads(pivot_result.to_json()))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 15:52:19,069 - app - INFO -__
+2020-09-10 15:52:19,072 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:52:19] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 15:54:05,203 - app - INFO -AB-server api started Successfully
+2020-09-10 15:54:05,208 - app - INFO -5000
+2020-09-10 15:54:05,208 - app - INFO -runing ...
+2020-09-10 15:54:06,180 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:54:17,202 - app - INFO -api Request Initiated
+2020-09-10 15:54:17,205 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:54:17,398 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 80, in file_process
+    print(json.loads(pivot_result.to_json()))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 15:54:17,408 - app - INFO -__
+2020-09-10 15:54:17,410 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:54:17] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 15:56:37,563 - app - INFO -AB-server api started Successfully
+2020-09-10 15:56:37,568 - app - INFO -5000
+2020-09-10 15:56:37,569 - app - INFO -runing ...
+2020-09-10 15:56:38,630 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:56:44,849 - app - INFO -api Request Initiated
+2020-09-10 15:56:44,851 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:56:44,973 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 82, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 15:56:44,985 - app - INFO -__
+2020-09-10 15:56:44,988 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:56:44] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 15:57:44,908 - app - INFO -AB-server api started Successfully
+2020-09-10 15:57:44,912 - app - INFO -5000
+2020-09-10 15:57:44,912 - app - INFO -runing ...
+2020-09-10 15:57:45,685 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 15:57:52,193 - app - INFO -api Request Initiated
+2020-09-10 15:57:52,195 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 15:57:52,307 - app - INFO -__
+2020-09-10 15:57:52,334 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:57:52] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:58:36,511 - app - INFO -api Request Initiated
+2020-09-10 15:58:36,514 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job']}
+2020-09-10 15:58:36,545 - app - INFO -__
+2020-09-10 15:58:36,547 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:58:36] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 15:58:58,374 - app - INFO -api Request Initiated
+2020-09-10 15:58:58,375 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno']}
+2020-09-10 15:58:58,398 - app - INFO -__
+2020-09-10 15:58:58,403 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:58:58] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 15:59:50,409 - app - INFO -api Request Initiated
+2020-09-10 15:59:50,411 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['job']}
+2020-09-10 15:59:50,440 - app - INFO -__
+2020-09-10 15:59:50,442 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 15:59:50] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:03:33,991 - app - INFO -AB-server api started Successfully
+2020-09-10 16:03:33,995 - app - INFO -5000
+2020-09-10 16:03:33,996 - app - INFO -runing ...
+2020-09-10 16:03:34,691 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:03:41,521 - app - INFO -api Request Initiated
+2020-09-10 16:03:41,523 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['job']}
+2020-09-10 16:03:41,558 - app - INFO -__
+2020-09-10 16:03:41,561 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:03:41] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:03:49,643 - app - INFO -api Request Initiated
+2020-09-10 16:03:49,645 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno']}
+2020-09-10 16:03:49,669 - app - INFO -__
+2020-09-10 16:03:49,715 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:03:49] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:04:25,714 - app - INFO -AB-server api started Successfully
+2020-09-10 16:04:25,717 - app - INFO -5000
+2020-09-10 16:04:25,718 - app - INFO -runing ...
+2020-09-10 16:04:26,366 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:04:32,609 - app - INFO -api Request Initiated
+2020-09-10 16:04:32,617 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno']}
+2020-09-10 16:04:32,650 - app - INFO -__
+2020-09-10 16:04:32,661 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:04:32] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:09:43,025 - app - INFO -api Request Initiated
+2020-09-10 16:09:43,026 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:09:43,212 - app - INFO -__
+2020-09-10 16:09:43,214 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:09:43] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:10:28,354 - app - INFO -AB-server api started Successfully
+2020-09-10 16:10:28,361 - app - INFO -5000
+2020-09-10 16:10:28,363 - app - INFO -runing ...
+2020-09-10 16:10:29,206 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:10:37,720 - app - INFO -api Request Initiated
+2020-09-10 16:10:37,738 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:10:37,942 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 82, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 16:10:37,952 - app - INFO -__
+2020-09-10 16:10:37,956 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:10:37] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 16:11:27,803 - app - INFO -AB-server api started Successfully
+2020-09-10 16:11:27,809 - app - INFO -5000
+2020-09-10 16:11:27,814 - app - INFO -runing ...
+2020-09-10 16:11:28,735 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:11:34,331 - app - INFO -api Request Initiated
+2020-09-10 16:11:34,332 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:11:34,447 - app - INFO -__
+2020-09-10 16:11:34,468 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:11:34] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:12:03,370 - app - INFO -AB-server api started Successfully
+2020-09-10 16:12:03,377 - app - INFO -5000
+2020-09-10 16:12:03,378 - app - INFO -runing ...
+2020-09-10 16:12:04,196 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:12:11,102 - app - INFO -api Request Initiated
+2020-09-10 16:12:11,109 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:12:11,380 - app - INFO -__
+2020-09-10 16:12:11,383 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:12:11] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:13:35,724 - app - INFO -AB-server api started Successfully
+2020-09-10 16:13:35,730 - app - INFO -5000
+2020-09-10 16:13:35,730 - app - INFO -runing ...
+2020-09-10 16:13:36,595 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:13:42,422 - app - INFO -api Request Initiated
+2020-09-10 16:13:42,425 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:13:42,546 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 47, in run
+    result ['data']=json.loads(json.dumps(data))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\abhi\Anaconda3\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\abhi\Anaconda3\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\abhi\Anaconda3\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'int64' is not JSON serializable
+2020-09-10 16:13:42,571 - app - INFO -__
+2020-09-10 16:13:42,576 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:13:42] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:14:42,246 - app - INFO -AB-server api started Successfully
+2020-09-10 16:14:42,252 - app - INFO -5000
+2020-09-10 16:14:42,253 - app - INFO -runing ...
+2020-09-10 16:14:43,167 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:14:52,488 - app - INFO -api Request Initiated
+2020-09-10 16:14:52,489 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:14:52,591 - app - INFO -__
+2020-09-10 16:14:52,595 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:14:52] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:18:18,156 - app - INFO -AB-server api started Successfully
+2020-09-10 16:18:18,159 - app - INFO -5000
+2020-09-10 16:18:18,160 - app - INFO -runing ...
+2020-09-10 16:18:18,970 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:18:24,965 - app - INFO -api Request Initiated
+2020-09-10 16:18:24,967 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:18:25,071 - app - INFO -__
+2020-09-10 16:18:25,076 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:18:25] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:23:38,577 - app - INFO -AB-server api started Successfully
+2020-09-10 16:23:38,580 - app - INFO -5000
+2020-09-10 16:23:38,581 - app - INFO -runing ...
+2020-09-10 16:23:39,980 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:23:49,813 - app - INFO -api Request Initiated
+2020-09-10 16:23:49,815 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:23:49,905 - app - INFO -__
+2020-09-10 16:23:50,116 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:23:50] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:27:51,624 - app - INFO -AB-server api started Successfully
+2020-09-10 16:27:51,628 - app - INFO -5000
+2020-09-10 16:27:51,628 - app - INFO -runing ...
+2020-09-10 16:27:52,557 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:27:58,218 - app - INFO -api Request Initiated
+2020-09-10 16:27:58,220 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:27:58,345 - app - INFO -__
+2020-09-10 16:27:58,450 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:27:58] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:28:35,028 - app - INFO -AB-server api started Successfully
+2020-09-10 16:28:35,033 - app - INFO -5000
+2020-09-10 16:28:35,034 - app - INFO -runing ...
+2020-09-10 16:28:35,666 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:28:58,874 - app - INFO -api Request Initiated
+2020-09-10 16:28:58,876 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:28:59,021 - app - INFO -__
+2020-09-10 16:28:59,043 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:28:59] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:29:31,344 - app - INFO -api Request Initiated
+2020-09-10 16:29:31,350 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'values': ['sal']}
+2020-09-10 16:29:31,397 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 95, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+AttributeError: 'dict' object has no attribute 'to_json'
+2020-09-10 16:29:31,403 - app - INFO -__
+2020-09-10 16:29:31,406 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:29:31] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:30:03,434 - app - INFO -api Request Initiated
+2020-09-10 16:30:03,440 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno']}
+2020-09-10 16:30:03,465 - app - INFO -__
+2020-09-10 16:30:03,480 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:30:03] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:30:43,460 - app - INFO -AB-server api started Successfully
+2020-09-10 16:30:43,464 - app - INFO -5000
+2020-09-10 16:30:43,464 - app - INFO -runing ...
+2020-09-10 16:30:44,358 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:30:50,031 - app - INFO -api Request Initiated
+2020-09-10 16:30:50,032 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno']}
+2020-09-10 16:30:50,064 - app - INFO -__
+2020-09-10 16:30:50,068 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:30:50] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:31:30,924 - app - INFO -api Request Initiated
+2020-09-10 16:31:30,929 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job']}
+2020-09-10 16:31:31,526 - app - INFO -__
+2020-09-10 16:31:31,572 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:31:31] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:31:48,139 - app - INFO -api Request Initiated
+2020-09-10 16:31:48,184 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'columns': ['deptno'], 'rows': ['job']}
+2020-09-10 16:31:48,800 - app - INFO -__
+2020-09-10 16:31:48,838 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:31:48] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:32:01,420 - app - INFO -api Request Initiated
+2020-09-10 16:32:01,435 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job']}
+2020-09-10 16:32:01,477 - app - INFO -__
+2020-09-10 16:32:01,492 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:32:01] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:32:53,235 - app - INFO -api Request Initiated
+2020-09-10 16:32:53,238 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:32:53,262 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 72, in file_process
+    for col in columns:
+TypeError: 'NoneType' object is not iterable
+2020-09-10 16:32:53,273 - app - INFO -__
+2020-09-10 16:32:53,277 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:32:53] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:34:50,586 - app - INFO -AB-server api started Successfully
+2020-09-10 16:34:50,592 - app - INFO -5000
+2020-09-10 16:34:50,592 - app - INFO -runing ...
+2020-09-10 16:34:51,838 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:34:59,689 - app - INFO -api Request Initiated
+2020-09-10 16:34:59,692 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:34:59,850 - app - INFO -__
+2020-09-10 16:34:59,852 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:34:59] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:36:13,380 - app - INFO -api Request Initiated
+2020-09-10 16:36:13,381 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['DEPTNO'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:36:13,413 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\indexes\base.py", line 2134, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas\index.pyx", line 132, in pandas.index.IndexEngine.get_loc (pandas\index.c:4433)
+  File "pandas\index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas\index.c:4279)
+  File "pandas\src\hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas\hashtable.c:13742)
+  File "pandas\src\hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas\hashtable.c:13696)
+KeyError: 'DEPTNO'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 74, in file_process
+    result_dict["columns"][col]=list(DF[col].unique())
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2059, in __getitem__
+    return self._getitem_column(key)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\core\frame.py", line 2066, in _getitem_column
+    return self._get_item_cache(key)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\core\generic.py", line 1386, in _get_item_cache
+    values = self._data.get(item)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\core\internals.py", line 3543, in get
+    loc = self.items.get_loc(item)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\indexes\base.py", line 2136, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas\index.pyx", line 132, in pandas.index.IndexEngine.get_loc (pandas\index.c:4433)
+  File "pandas\index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas\index.c:4279)
+  File "pandas\src\hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas\hashtable.c:13742)
+  File "pandas\src\hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas\hashtable.c:13696)
+KeyError: 'DEPTNO'
+2020-09-10 16:36:13,580 - app - INFO -__
+2020-09-10 16:36:13,582 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:36:13] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:36:26,614 - app - INFO -api Request Initiated
+2020-09-10 16:36:26,615 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:36:26,843 - app - INFO -__
+2020-09-10 16:36:26,871 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:36:26] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:38:42,337 - app - INFO -AB-server api started Successfully
+2020-09-10 16:38:42,343 - app - INFO -5000
+2020-09-10 16:38:42,344 - app - INFO -runing ...
+2020-09-10 16:38:43,158 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:38:47,971 - app - INFO -api Request Initiated
+2020-09-10 16:38:47,973 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:38:48,091 - app - INFO -__
+2020-09-10 16:38:48,152 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:38:48] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:53:21,178 - app - INFO -AB-server api started Successfully
+2020-09-10 16:53:21,183 - app - INFO -5000
+2020-09-10 16:53:21,184 - app - INFO -runing ...
+2020-09-10 16:53:21,984 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:54:39,522 - app - INFO -api Request Initiated
+2020-09-10 16:54:39,523 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:54:39,663 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 83, in file_process
+    rd=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 16:54:39,674 - app - INFO -__
+2020-09-10 16:54:39,683 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:54:39] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 16:55:54,303 - app - INFO -AB-server api started Successfully
+2020-09-10 16:55:54,307 - app - INFO -5000
+2020-09-10 16:55:54,308 - app - INFO -runing ...
+2020-09-10 16:55:55,203 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:56:00,911 - app - INFO -api Request Initiated
+2020-09-10 16:56:00,913 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:56:01,139 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 83, in file_process
+    rd=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 16:56:01,154 - app - INFO -__
+2020-09-10 16:56:01,159 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:56:01] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 16:57:46,392 - app - INFO -AB-server api started Successfully
+2020-09-10 16:57:46,399 - app - INFO -5000
+2020-09-10 16:57:46,399 - app - INFO -runing ...
+2020-09-10 16:57:47,770 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 16:57:54,972 - app - INFO -api Request Initiated
+2020-09-10 16:57:54,973 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:57:55,084 - app - INFO -__
+2020-09-10 16:57:55,115 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:57:55] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 16:58:26,342 - app - INFO -api Request Initiated
+2020-09-10 16:58:26,344 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job'], 'values': ['sal']}
+2020-09-10 16:58:26,396 - app - INFO -__
+2020-09-10 16:58:26,398 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 16:58:26] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 16:59:56,009 - app - INFO -AB-server api started Successfully
+2020-09-10 16:59:56,017 - app - INFO -5000
+2020-09-10 16:59:56,019 - app - INFO -runing ...
+2020-09-10 16:59:57,098 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:00:07,267 - app - INFO -api Request Initiated
+2020-09-10 17:00:07,269 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:00:07,347 - app - INFO -__
+2020-09-10 17:00:07,352 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:00:07] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:00:40,031 - app - INFO -api Request Initiated
+2020-09-10 17:00:40,033 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['deptno'], 'values': ['sal']}
+2020-09-10 17:00:40,131 - app - INFO -__
+2020-09-10 17:00:40,201 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:00:40] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 17:05:33,085 - app - INFO -AB-server api started Successfully
+2020-09-10 17:05:33,093 - app - INFO -5000
+2020-09-10 17:05:33,094 - app - INFO -runing ...
+2020-09-10 17:05:33,950 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:06:10,976 - app - INFO -api Request Initiated
+2020-09-10 17:06:10,978 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:06:11,121 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 83, in file_process
+    rd=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 17:06:11,135 - app - INFO -__
+2020-09-10 17:06:11,139 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:06:11] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 17:06:32,118 - app - INFO -api Request Initiated
+2020-09-10 17:06:32,120 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:06:32,201 - app - INFO -__
+2020-09-10 17:06:32,205 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:06:32] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:08:31,222 - app - INFO -AB-server api started Successfully
+2020-09-10 17:08:31,225 - app - INFO -5000
+2020-09-10 17:08:31,225 - app - INFO -runing ...
+2020-09-10 17:08:31,854 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:08:40,572 - app - INFO -api Request Initiated
+2020-09-10 17:08:40,574 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:08:40,652 - app - INFO -__
+2020-09-10 17:08:40,655 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:08:40] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:09:56,676 - app - INFO -AB-server api started Successfully
+2020-09-10 17:09:56,681 - app - INFO -5000
+2020-09-10 17:09:56,681 - app - INFO -runing ...
+2020-09-10 17:09:57,422 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:10:03,552 - app - INFO -api Request Initiated
+2020-09-10 17:10:03,558 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:10:03,643 - app - INFO -__
+2020-09-10 17:10:03,648 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:10:03] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:12:38,978 - app - INFO -AB-server api started Successfully
+2020-09-10 17:12:38,983 - app - INFO -5000
+2020-09-10 17:12:38,984 - app - INFO -runing ...
+2020-09-10 17:12:39,743 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:12:57,522 - app - INFO -api Request Initiated
+2020-09-10 17:12:57,524 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:12:57,613 - app - INFO -__
+2020-09-10 17:12:57,615 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:12:57] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:14:41,505 - app - INFO -AB-server api started Successfully
+2020-09-10 17:14:41,510 - app - INFO -5000
+2020-09-10 17:14:41,511 - app - INFO -runing ...
+2020-09-10 17:14:42,297 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:14:47,387 - app - INFO -api Request Initiated
+2020-09-10 17:14:47,391 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:14:47,453 - app - INFO -__
+2020-09-10 17:14:47,461 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:14:47] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:15:56,902 - app - INFO -AB-server api started Successfully
+2020-09-10 17:15:56,907 - app - INFO -5000
+2020-09-10 17:15:56,908 - app - INFO -runing ...
+2020-09-10 17:15:57,695 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:16:04,655 - app - INFO -api Request Initiated
+2020-09-10 17:16:04,683 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:16:04,869 - app - INFO -__
+2020-09-10 17:16:04,872 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:16:04] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:16:44,503 - app - INFO -api Request Initiated
+2020-09-10 17:16:44,505 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:16:44,661 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 86, in file_process
+    result_dict["data"]=json.loads(json.dumps(pivot_result.to_dict()))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\abhi\Anaconda3\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\abhi\Anaconda3\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: keys must be a string
+2020-09-10 17:16:44,670 - app - INFO -__
+2020-09-10 17:16:44,673 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:16:44] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-10 17:17:53,881 - app - INFO -AB-server api started Successfully
+2020-09-10 17:17:53,885 - app - INFO -5000
+2020-09-10 17:17:53,885 - app - INFO -runing ...
+2020-09-10 17:17:54,768 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:18:00,017 - app - INFO -api Request Initiated
+2020-09-10 17:18:00,019 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:18:00,173 - app - INFO -__
+2020-09-10 17:18:00,175 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:18:00] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:18:48,001 - app - INFO -AB-server api started Successfully
+2020-09-10 17:18:48,007 - app - INFO -5000
+2020-09-10 17:18:48,007 - app - INFO -runing ...
+2020-09-10 17:18:48,838 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:18:57,955 - app - INFO -api Request Initiated
+2020-09-10 17:18:57,956 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:18:58,052 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 86, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 17:18:58,073 - app - INFO -__
+2020-09-10 17:18:58,076 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:18:58] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 17:19:38,483 - app - INFO -AB-server api started Successfully
+2020-09-10 17:19:38,487 - app - INFO -5000
+2020-09-10 17:19:38,487 - app - INFO -runing ...
+2020-09-10 17:19:39,897 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:19:44,375 - app - INFO -api Request Initiated
+2020-09-10 17:19:44,378 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:19:44,605 - app - INFO -__
+2020-09-10 17:19:44,607 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:19:44] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:20:26,886 - app - INFO -AB-server api started Successfully
+2020-09-10 17:20:26,890 - app - INFO -5000
+2020-09-10 17:20:26,891 - app - INFO -runing ...
+2020-09-10 17:20:27,684 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:20:33,664 - app - INFO -api Request Initiated
+2020-09-10 17:20:33,668 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:20:33,768 - app - INFO -__
+2020-09-10 17:20:33,770 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:20:33] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:21:18,995 - app - INFO -AB-server api started Successfully
+2020-09-10 17:21:19,001 - app - INFO -5000
+2020-09-10 17:21:19,002 - app - INFO -runing ...
+2020-09-10 17:21:20,229 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:21:27,441 - app - INFO -api Request Initiated
+2020-09-10 17:21:27,443 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:21:27,547 - app - INFO -__
+2020-09-10 17:21:27,550 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:21:27] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-10 17:24:00,358 - app - INFO -AB-server api started Successfully
+2020-09-10 17:24:00,362 - app - INFO -5000
+2020-09-10 17:24:00,362 - app - INFO -runing ...
+2020-09-10 17:24:01,138 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:24:06,040 - app - INFO -api Request Initiated
+2020-09-10 17:24:06,042 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:24:06,177 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 86, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json(orient="records"))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 6 (char 5)
+2020-09-10 17:24:06,355 - app - INFO -__
+2020-09-10 17:24:06,358 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:24:06] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 17:32:20,855 - app - INFO -AB-server api started Successfully
+2020-09-10 17:32:20,859 - app - INFO -5000
+2020-09-10 17:32:20,859 - app - INFO -runing ...
+2020-09-10 17:32:21,510 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:32:31,954 - app - INFO -api Request Initiated
+2020-09-10 17:32:31,956 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:32:32,047 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 85, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json(orient="records"))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 6 (char 5)
+2020-09-10 17:32:32,055 - app - INFO -__
+2020-09-10 17:32:32,088 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:32:32] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-10 17:34:07,135 - app - INFO -AB-server api started Successfully
+2020-09-10 17:34:07,138 - app - INFO -5000
+2020-09-10 17:34:07,139 - app - INFO -runing ...
+2020-09-10 17:34:07,822 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-10 17:34:24,919 - app - INFO -api Request Initiated
+2020-09-10 17:34:24,921 - app - INFO -{'file_name': 'C:\\Users\\abhi\\emp_data.csv', 'filter': {'job': ['CLERK', 'SALESMAN']}, 'columns': ['deptno'], 'rows': ['job'], 'values': ['sal']}
+2020-09-10 17:34:25,041 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 84, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-10 17:34:25,052 - app - INFO -__
+2020-09-10 17:34:25,055 - werkzeug - INFO -127.0.0.1 - - [10/Sep/2020 17:34:25] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 09:06:26,275 - app - INFO -AB-server api started Successfully
+2020-09-11 09:06:26,279 - app - INFO -5000
+2020-09-11 09:06:26,280 - app - INFO -runing ...
+2020-09-11 09:06:26,997 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 09:11:43,982 - app - INFO -AB-server api started Successfully
+2020-09-11 09:11:43,986 - app - INFO -5000
+2020-09-11 09:11:43,987 - app - INFO -runing ...
+2020-09-11 09:11:44,648 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 09:11:57,941 - app - INFO -api Request Initiated
+2020-09-11 09:11:57,943 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 09:12:15,054 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 81, in file_process
+    pivot_result=DF.pivot_table(values=values_section, index=rows, columns=columns, aggfunc='sum', fill_value=0, margins=True, dropna=True, margins_name='GrandTotal')
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\pivot.py", line 164, in pivot_table
+    margins_name=margins_name)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\pivot.py", line 211, in _add_margins
+    margins_name)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\pivot.py", line 308, in _generate_marginal_results
+    result = concat(table_pieces, axis=cat_axis)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\merge.py", line 1451, in concat
+    copy=copy)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\merge.py", line 1484, in __init__
+    raise ValueError('No objects to concatenate')
+ValueError: No objects to concatenate
+2020-09-11 09:12:15,184 - app - INFO -__
+2020-09-11 09:12:15,187 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 09:12:15] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 09:20:32,501 - app - INFO -AB-server api started Successfully
+2020-09-11 09:20:32,505 - app - INFO -5000
+2020-09-11 09:20:32,505 - app - INFO -runing ...
+2020-09-11 09:20:33,184 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 09:20:49,947 - app - INFO -api Request Initiated
+2020-09-11 09:20:49,948 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 09:21:05,393 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 86, in file_process
+    pivot_result=DF.pivot_table(values=values_section, index=rows, columns=columns, aggfunc='sum', fill_value=0, margins=True, dropna=True, margins_name='GrandTotal')
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\pivot.py", line 164, in pivot_table
+    margins_name=margins_name)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\pivot.py", line 211, in _add_margins
+    margins_name)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\pivot.py", line 308, in _generate_marginal_results
+    result = concat(table_pieces, axis=cat_axis)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\merge.py", line 1451, in concat
+    copy=copy)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\merge.py", line 1484, in __init__
+    raise ValueError('No objects to concatenate')
+ValueError: No objects to concatenate
+2020-09-11 09:21:05,462 - app - INFO -__
+2020-09-11 09:21:05,464 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 09:21:05] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 09:33:14,003 - app - INFO -AB-server api started Successfully
+2020-09-11 09:33:14,007 - app - INFO -5000
+2020-09-11 09:33:14,007 - app - INFO -runing ...
+2020-09-11 09:33:14,676 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 09:34:12,731 - app - INFO -api Request Initiated
+2020-09-11 09:34:12,733 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 09:34:26,761 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 87, in file_process
+    pivot_result=DF.pivot_table(values=['Units Sold'], index=['Region'], columns=['Item Type'], aggfunc='sum', fill_value=0, margins=True, dropna=False, margins_name='GrandTotal')
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\pivot.py", line 164, in pivot_table
+    margins_name=margins_name)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\pivot.py", line 211, in _add_margins
+    margins_name)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\pivot.py", line 308, in _generate_marginal_results
+    result = concat(table_pieces, axis=cat_axis)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\merge.py", line 1451, in concat
+    copy=copy)
+  File "C:\Users\abhi\Anaconda3\lib\site-packages\pandas\tools\merge.py", line 1484, in __init__
+    raise ValueError('No objects to concatenate')
+ValueError: No objects to concatenate
+2020-09-11 09:34:26,837 - app - INFO -__
+2020-09-11 09:34:26,840 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 09:34:26] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 09:38:34,154 - app - INFO -AB-server api started Successfully
+2020-09-11 09:38:34,157 - app - INFO -5000
+2020-09-11 09:38:34,158 - app - INFO -runing ...
+2020-09-11 09:38:34,855 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 09:38:54,670 - app - INFO -api Request Initiated
+2020-09-11 09:38:54,675 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 09:39:06,573 - app - INFO -__
+2020-09-11 09:39:06,575 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 09:39:06] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 09:48:19,787 - app - INFO -AB-server api started Successfully
+2020-09-11 09:48:19,791 - app - INFO -5000
+2020-09-11 09:48:19,792 - app - INFO -runing ...
+2020-09-11 09:48:20,425 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 09:48:31,999 - app - INFO -api Request Initiated
+2020-09-11 09:48:32,004 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 09:48:52,039 - app - INFO -__
+2020-09-11 09:48:52,041 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 09:48:52] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 09:50:06,810 - app - INFO -AB-server api started Successfully
+2020-09-11 09:50:06,814 - app - INFO -5000
+2020-09-11 09:50:06,814 - app - INFO -runing ...
+2020-09-11 09:50:07,438 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 09:50:24,318 - app - INFO -api Request Initiated
+2020-09-11 09:50:24,320 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 09:50:44,626 - app - INFO -__
+2020-09-11 09:50:44,628 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 09:50:44] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 10:12:38,296 - app - INFO -AB-server api started Successfully
+2020-09-11 10:12:38,301 - app - INFO -5000
+2020-09-11 10:12:38,303 - app - INFO -runing ...
+2020-09-11 10:12:39,365 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 10:12:58,604 - app - INFO -api Request Initiated
+2020-09-11 10:12:58,606 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 10:13:20,555 - app - INFO -__
+2020-09-11 10:13:20,556 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 10:13:20] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 10:23:05,248 - app - INFO -AB-server api started Successfully
+2020-09-11 10:23:05,252 - app - INFO -5000
+2020-09-11 10:23:05,253 - app - INFO -runing ...
+2020-09-11 10:23:05,797 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 10:23:28,137 - app - INFO -api Request Initiated
+2020-09-11 10:23:28,139 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 10:23:49,453 - app - INFO -__
+2020-09-11 10:23:49,455 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 10:23:49] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 12:08:19,724 - app - INFO -AB-server api started Successfully
+2020-09-11 12:08:19,812 - app - INFO -5000
+2020-09-11 12:08:19,813 - app - INFO -runing ...
+2020-09-11 12:08:21,059 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 12:30:36,667 - app - INFO -api Request Initiated
+2020-09-11 12:30:36,670 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 12:30:50,280 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 87, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 5 (char 4)
+2020-09-11 12:30:50,446 - app - INFO -__
+2020-09-11 12:30:50,449 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 12:30:50] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 12:33:31,986 - app - INFO -AB-server api started Successfully
+2020-09-11 12:33:31,990 - app - INFO -5000
+2020-09-11 12:33:31,990 - app - INFO -runing ...
+2020-09-11 12:33:32,691 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 12:33:36,870 - app - INFO -api Request Initiated
+2020-09-11 12:33:36,871 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 12:33:49,433 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 87, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json(orient="records"))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 6 (char 5)
+2020-09-11 12:33:49,570 - app - INFO -__
+2020-09-11 12:33:49,572 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 12:33:49] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 12:47:26,747 - app - INFO -AB-server api started Successfully
+2020-09-11 12:47:26,751 - app - INFO -5000
+2020-09-11 12:47:26,751 - app - INFO -runing ...
+2020-09-11 12:47:27,466 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 12:47:39,476 - app - INFO -api Request Initiated
+2020-09-11 12:47:39,478 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 12:47:55,036 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 88, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json(orient="records"))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 6 (char 5)
+2020-09-11 12:47:55,084 - app - INFO -__
+2020-09-11 12:47:55,086 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 12:47:55] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 12:48:51,132 - app - INFO -api Request Initiated
+2020-09-11 12:48:51,170 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 12:49:05,374 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 88, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json(orient="records"))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 6 (char 5)
+2020-09-11 12:49:05,417 - app - INFO -__
+2020-09-11 12:49:05,419 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 12:49:05] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 12:53:13,391 - app - INFO -AB-server api started Successfully
+2020-09-11 12:53:13,395 - app - INFO -5000
+2020-09-11 12:53:13,395 - app - INFO -runing ...
+2020-09-11 12:53:14,017 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 12:53:32,239 - app - INFO -api Request Initiated
+2020-09-11 12:53:32,240 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 12:53:45,307 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 88, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json(orient="records"))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 6 (char 5)
+2020-09-11 12:53:45,355 - app - INFO -__
+2020-09-11 12:53:45,357 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 12:53:45] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 12:54:22,735 - app - INFO -api Request Initiated
+2020-09-11 12:54:22,740 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 12:54:26,336 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 88, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json(orient="records"))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 6 (char 5)
+2020-09-11 12:54:26,339 - app - INFO -__
+2020-09-11 12:54:26,345 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 12:54:26] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 13:07:31,868 - app - INFO -AB-server api started Successfully
+2020-09-11 13:07:31,872 - app - INFO -5000
+2020-09-11 13:07:31,872 - app - INFO -runing ...
+2020-09-11 13:07:32,564 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 13:07:40,439 - app - INFO -api Request Initiated
+2020-09-11 13:07:40,441 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 13:07:44,985 - app - INFO -__
+2020-09-11 13:07:44,987 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 13:07:44] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 13:08:57,668 - app - INFO -AB-server api started Successfully
+2020-09-11 13:08:57,672 - app - INFO -5000
+2020-09-11 13:08:57,673 - app - INFO -runing ...
+2020-09-11 13:08:58,444 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 13:09:09,675 - app - INFO -api Request Initiated
+2020-09-11 13:09:09,678 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 13:09:13,247 - app - ERROR -Value Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 88, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json(orient="records"))
+  File "C:\Users\abhi\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\abhi\Anaconda3\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 6 (char 5)
+2020-09-11 13:09:13,251 - app - INFO -__
+2020-09-11 13:09:13,254 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 13:09:13] "POST /file_source?pivot_ind=yes HTTP/1.1" 400 -
+2020-09-11 13:09:50,759 - app - INFO -AB-server api started Successfully
+2020-09-11 13:09:50,763 - app - INFO -5000
+2020-09-11 13:09:50,763 - app - INFO -runing ...
+2020-09-11 13:09:51,410 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 13:10:03,456 - app - INFO -api Request Initiated
+2020-09-11 13:10:03,458 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 13:10:07,133 - app - INFO -__
+2020-09-11 13:10:07,136 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 13:10:07] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 13:32:52,837 - app - INFO -AB-server api started Successfully
+2020-09-11 13:32:52,842 - app - INFO -5000
+2020-09-11 13:32:52,842 - app - INFO -runing ...
+2020-09-11 13:32:53,652 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 13:33:08,088 - app - INFO -api Request Initiated
+2020-09-11 13:33:08,090 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 13:33:12,322 - app - INFO -__
+2020-09-11 13:33:12,325 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 13:33:12] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 13:35:30,288 - app - INFO -api Request Initiated
+2020-09-11 13:35:30,290 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 13:35:34,169 - app - INFO -__
+2020-09-11 13:35:34,171 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 13:35:34] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 13:37:05,272 - app - INFO -api Request Initiated
+2020-09-11 13:37:05,273 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'columns': ['Item Type'], 'rows': ['Region']}
+2020-09-11 13:37:07,312 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 85, in file_process
+    pivot_result=DF.pivot_table(values=values_section[0], index=rows, columns=columns, aggfunc='sum', fill_value=0, margins=True, dropna=True, margins_name='GrandTotal')
+TypeError: 'NoneType' object is not subscriptable
+2020-09-11 13:37:07,368 - app - INFO -__
+2020-09-11 13:37:07,370 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 13:37:07] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-11 13:39:39,177 - app - INFO -AB-server api started Successfully
+2020-09-11 13:39:39,181 - app - INFO -5000
+2020-09-11 13:39:39,182 - app - INFO -runing ...
+2020-09-11 13:39:39,870 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 13:39:52,685 - app - INFO -api Request Initiated
+2020-09-11 13:39:52,687 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'columns': ['Item Type'], 'rows': ['Region']}
+2020-09-11 14:01:33,682 - app - INFO -AB-server api started Successfully
+2020-09-11 14:01:33,687 - app - INFO -5000
+2020-09-11 14:01:33,688 - app - INFO -runing ...
+2020-09-11 14:01:34,548 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 14:01:50,508 - app - INFO -api Request Initiated
+2020-09-11 14:01:50,511 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'columns': ['Item Type'], 'rows': ['Region']}
+2020-09-11 14:01:52,617 - app - INFO -__
+2020-09-11 14:01:52,618 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 14:01:52] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 14:02:19,939 - app - INFO -api Request Initiated
+2020-09-11 14:02:19,941 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 14:02:23,765 - app - INFO -__
+2020-09-11 14:02:23,767 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 14:02:23] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 14:03:02,159 - app - INFO -api Request Initiated
+2020-09-11 14:03:02,161 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'columns': ['Item Type']}
+2020-09-11 14:03:04,157 - app - INFO -__
+2020-09-11 14:03:04,158 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 14:03:04] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 14:03:57,521 - app - INFO -api Request Initiated
+2020-09-11 14:03:57,523 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'rows': ['Region']}
+2020-09-11 14:04:00,046 - app - INFO -__
+2020-09-11 14:04:00,048 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 14:04:00] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 14:05:00,584 - app - INFO -api Request Initiated
+2020-09-11 14:05:00,586 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'values': ['Units Sold']}
+2020-09-11 14:05:02,372 - app - ERROR -Exception while submitting feedback
+Traceback (most recent call last):
+  File "C:\Users\abhi\venkat\v2\flask_api\middleware\filesource.py", line 41, in run
+    data= etl_obj.file_process(file_type,file_name,filter_items,columns,rows,values_section)
+  File "C:\Users\abhi\venkat\v2\flask_api\etl\files\fileprocess.py", line 109, in file_process
+    result_dict["data"]=json.loads(pivot_result.to_json())
+AttributeError: 'dict' object has no attribute 'to_json'
+2020-09-11 14:05:02,375 - app - INFO -__
+2020-09-11 14:05:02,376 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 14:05:02] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-11 14:05:59,507 - app - INFO -AB-server api started Successfully
+2020-09-11 14:05:59,511 - app - INFO -5000
+2020-09-11 14:05:59,512 - app - INFO -runing ...
+2020-09-11 14:06:00,194 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 14:06:12,785 - app - INFO -api Request Initiated
+2020-09-11 14:06:12,786 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'values': ['Units Sold']}
+2020-09-11 14:06:14,813 - app - INFO -__
+2020-09-11 14:06:14,921 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 14:06:14] "POST /file_source?pivot_ind=yes HTTP/1.1" 500 -
+2020-09-11 14:08:03,731 - app - INFO -AB-server api started Successfully
+2020-09-11 14:08:03,735 - app - INFO -5000
+2020-09-11 14:08:03,735 - app - INFO -runing ...
+2020-09-11 14:08:04,406 - werkzeug - INFO - * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-11 14:08:15,599 - app - INFO -api Request Initiated
+2020-09-11 14:08:15,601 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'values': ['Units Sold']}
+2020-09-11 14:08:17,595 - app - INFO -__
+2020-09-11 14:08:17,596 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 14:08:17] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 14:10:09,797 - app - INFO -api Request Initiated
+2020-09-11 14:10:09,800 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 14:10:12,782 - app - INFO -__
+2020-09-11 14:10:12,784 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 14:10:12] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 14:10:48,654 - app - INFO -api Request Initiated
+2020-09-11 14:10:48,656 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': []}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 14:10:52,566 - app - INFO -__
+2020-09-11 14:10:52,567 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 14:10:52] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
+2020-09-11 14:11:29,300 - app - INFO -api Request Initiated
+2020-09-11 14:11:29,301 - app - INFO -{'file_name': 'C:\\Users\\abhi\\venkat\\data\\150k_Sales_Records.csv', 'filter': {'Sales Channel': ['Online']}, 'columns': ['Item Type'], 'rows': ['Region'], 'values': ['Units Sold']}
+2020-09-11 14:11:33,013 - app - INFO -__
+2020-09-11 14:11:33,015 - werkzeug - INFO -127.0.0.1 - - [11/Sep/2020 14:11:33] "POST /file_source?pivot_ind=yes HTTP/1.1" 200 -
