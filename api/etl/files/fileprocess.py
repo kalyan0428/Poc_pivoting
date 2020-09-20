@@ -31,8 +31,7 @@ class Fileprocess (Filevalidate):
     def file_process (self,file_type,file_name,filter_items,columns,rows,values_section,download_ind=None,chunk_size=2000000):
        try:
         if file_type == "csv" :
-            data_dir=r"C:\\\\Users\\\\venkats_mandadapu\\\\v2\\\\data\\\\"
-            #data_dir=r"C:\\\\Users\\\\abhi\\\\venkat\\\\data\\\\"
+            data_dir=r"C:\\pivotfiles-download"
             pkl_file =data_dir+os.path.basename(os.path.splitext(file_name)[0])
             file_exists=os.path.exists(pkl_file+".PKL")
             download_file=None
